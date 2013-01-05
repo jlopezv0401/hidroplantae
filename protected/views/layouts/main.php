@@ -204,8 +204,8 @@
 				'items'=>array(
 					array('label'=>'Home', 'url'=>array('/site/index')),
 					array('label'=>'¿Quienes somos?', 'url'=>array('/site/page','view'=>'quienes'), 'items' =>array(
-              			array('label'=>'El Proyecto', 'url'=>array('/site/page')),
-              			array('label'=>'Misión', 'url'=>array('/site/index')),
+              			array('label'=>'El Proyecto', 'url'=>array('/site/page', 'view'=>'proyecto')),
+              			array('label'=>'Misión', 'url'=>array('/site/page', 'view'=>'mision')),
               			array('label'=>'Visión', 'url'=>array('/site/index')),
             		),),
 					array('label'=>'¿Qué Hacemos?', 'url'=>array('/site/page', 'view'=>'about'), 'items' =>array(

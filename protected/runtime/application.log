@@ -919,3 +919,48 @@ Stack trace:
 REQUEST_URI=/hidroplantae/index.php?r=site/page
 HTTP_REFERER=http://localhost/hidroplantae/index.php?r=site/page&view=about
 ---
+2013/01/05 12:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /var/www/yii-1.1.12/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /var/www/yii-1.1.12/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /var/www/yii-1.1.12/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /var/www/yii-1.1.12/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /var/www/yii-1.1.12/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /var/www/yii-1.1.12/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii-1.1.12/framework/web/CWebApplication.php(283): CController->run('page')
+#6 /var/www/yii-1.1.12/framework/web/CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 /var/www/yii-1.1.12/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/hidroplantae/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hidroplantae/index.php?r=site/page
+HTTP_REFERER=http://localhost/hidroplantae/index.php?r=site/page&view=about
+---
+2013/01/05 12:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /var/www/yii-1.1.12/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /var/www/yii-1.1.12/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /var/www/yii-1.1.12/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /var/www/yii-1.1.12/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /var/www/yii-1.1.12/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /var/www/yii-1.1.12/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii-1.1.12/framework/web/CWebApplication.php(283): CController->run('page')
+#6 /var/www/yii-1.1.12/framework/web/CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 /var/www/yii-1.1.12/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/hidroplantae/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hidroplantae/index.php?r=site/page
+HTTP_REFERER=http://localhost/hidroplantae/index.php?r=site/page&view=quienes
+---
+2013/01/05 12:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in /var/www/yii-1.1.12/framework/web/actions/CViewAction.php:113
+Stack trace:
+#0 /var/www/yii-1.1.12/framework/web/actions/CViewAction.php(124): CViewAction->resolveView('index')
+#1 /var/www/yii-1.1.12/framework/web/actions/CAction.php(75): CViewAction->run()
+#2 /var/www/yii-1.1.12/framework/web/CController.php(309): CAction->runWithParams(Array)
+#3 /var/www/yii-1.1.12/framework/web/CController.php(287): CController->runAction(Object(CViewAction))
+#4 /var/www/yii-1.1.12/framework/web/CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii-1.1.12/framework/web/CWebApplication.php(283): CController->run('page')
+#6 /var/www/yii-1.1.12/framework/web/CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 /var/www/yii-1.1.12/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/hidroplantae/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hidroplantae/index.php?r=site/page
+HTTP_REFERER=http://localhost/hidroplantae/index.php?r=site/page&view=quienes
+---
